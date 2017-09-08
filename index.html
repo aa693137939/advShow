@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>康佳智能电视广告推介</title>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<!--[if lt IE 9]> 
+	//仅IE9可识别 使IE9以下版本兼容HTML5标签
+	<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	//使IE9以下版本兼容css3样式
+	<script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link href="styles/reset.css" rel="stylesheet" media="screen">
+	
+	<link rel="stylesheet" href="styles/index.css" media="screen">
+</head>
+<body>
+<div class="page">
+	<div class="background">
+		<!-- <a class="logoBG" href="http://www.konka.com">
+			<img src="image/logo1.png">
+		</a> -->
+		<button class="btn reloadBtn hide">重新体验</button>
+		<div class="background1 pic"></div>
+	</div>
+
+	<div class="main">
+		<!-- 进入页面 -->
+		<div class="mainIndex index1">
+			<img class="logo" src="image/logo1.png">
+			<p class="title">康佳智能电视广告推介</p>
+			<button class="btn indexBtn">开始体验</button>
+		</div>
+		<!-- 过度动画 -->
+		<div class="mainIndex index2 hide">
+			<img class="TV1" src="image/TV1.png">
+			<img class="hand" src="image/hand.png">
+		</div>
+		<!-- 首页 -->
+		<div class="mainIndex index3 hide">
+			<div class="tv_wrapper hide">
+				<ul class="nav">
+					<li class="canck nav1 active">首页</li>
+					<li class="canck nav2">专区</li>
+					<li>影视</li>
+					<li>易学</li>
+					<li>游戏</li>
+					<li>应用</li>
+				</ul>
+				<!-- <div class="TV_content1"></div> -->
+				<div class="TV_content2 search"></div>
+				<!-- <div class="TV_content3"></div>
+				<div class="TV_content4"></div> -->
+				<div class="TV_content5 KKTV"></div>
+				<!-- <div class="TV_content6"></div>
+				<div class="TV_content7"></div>
+				<div class="TV_content8"></div>
+				<div class="TV_content9"></div>
+				<div class="TV_content10"></div>
+				<div class="TV_content11"></div>
+				<div class="TV_content12"></div>
+				<div class="TV_content13"></div> -->
+			</div>
+			<img class="mainTV" src="image/YIUI.png">
+			<img class="shadow" src="image/shadow.png">
+			<div class="vid-wrapper">
+				<button class="btn jumpBtn">跳过</button>
+			    <video class="adv1" poster="image/adv/advBG2.png" autobuffer preload="auto" id="adv1">
+			    	<source src="http://material.konka.com/M00/00/00/wKgBCVkw0j-ARkDQAGunOLicDzc364.mp4" type="video/mp4"/>
+					<!-- <source src="video/2.mp4" type="video/mp4"/> -->
+					对不起，您的浏览器不支持播放视频
+				</video>
+			</div>
+		</div>
+		<!-- 全网搜索 -->
+		<div class="mainIndex index4 hide">
+			<div class="tv_wrapper">
+				<button class="btn backBtn">返回</button>
+				<!-- <div class="TV_content1"></div>
+				<div class="TV_content2"></div>
+				<div class="TV_content3"></div>
+				<div class="TV_content4"></div>
+				<div class="TV_content5"></div>
+				<div class="TV_content6"></div>
+				<div class="TV_content7"></div>
+				<div class="TV_content8"></div> -->
+			</div>
+			<img class="mainTV" src="image/TV2.png">
+			<img class="shadow" src="image/shadow.png">
+		</div>
+		<!-- 专区展示 -->
+		<div class="mainIndex index5 hide">
+			<div class="tv_wrapper">
+				<ul class="nav">
+					<li class="canck nav1">首页</li>
+					<li class="canck nav2 active">专区</li>
+					<li>影视</li>
+					<li>易学</li>
+					<li>游戏</li>
+					<li>应用</li>
+				</ul>
+				<!-- <div class="TV_content1"></div>
+				<div class="TV_content2"></div>
+				<div class="TV_content3"></div>
+				<div class="TV_content4"></div>
+				<div class="TV_content5"></div> -->
+			</div>
+			<img class="mainTV" src="image/areaTV.png">
+			<img class="shadow" src="image/shadow.png">
+		</div>
+		<!-- 小K -->
+		<div class="mainIndex index6 hide">
+			<div class="tv_wrapper hide">
+				<button class="btn backBtn">退出</button>
+				<!-- <div class="TV_content1"></div>
+				<div class="TV_content2"></div>
+				<div class="TV_content3"></div> -->
+				<div class="TV_content4 openVideo"></div>
+				<!-- <div class="TV_content5"></div>
+				<div class="TV_content6"></div>
+				<div class="TV_content7"></div>
+				<div class="TV_content8"></div>
+				<div class="TV_content9"></div>
+				<div class="TV_content10"></div>
+				<div class="TV_content11"></div> -->
+			</div>
+			<img class="mainTV" src="image/KKTV.png">
+			<img class="shadow" src="image/shadow.png">
+			<div class="adv-wrapper">
+				<button class="btn jumpBtn">跳过(5s)</button>
+			    <img class="adv1" src="image/adv/appAdv.jpg">
+			</div>
+		</div>
+		<!-- 视频模块 -->
+		<div class="mainIndex index7 hide">
+			<div class="tv_wrapper">
+				<button class="btn backBtn">返回</button>
+				<div class="TV_content1 palyTV"></div>
+			</div>
+			<img class="mainTV" src="image/KK/video.png">
+			<img class="shadow" src="image/shadow.png">
+			<div class="adv-wrapper hide">
+				<button class="btn jumpBtn">跳过</button>
+				<video class="adv2" poster="image/adv/advBG1.png" autobuffer preload="auto" id="adv2">
+					<source src="http://material.konka.com/M00/00/01/wKgBCVk1NICAHbwbAF-IMZwX7Sc583.mp4" type="video/mp4"/>
+					<!-- <source src="video/3.mp4" type="video/mp4"/> -->
+					对不起，您的浏览器不支持播放视频
+				</video>
+			</div>
+			<div class="vid-wrapper hide">
+				<video class="vid1" poster="image/adv/vidBG1.png" autobuffer preload="auto" id="vid1">
+					<source src="http://material.konka.com/M00/00/00/wKgBCVkj2OKAf3eFANS4EQw66Ng201.mp4" type="video/mp4"/>
+					<!-- <source src="video/4.mp4" type="video/mp4"/> -->
+					对不起，您的浏览器不支持播放视频
+				</video>
+				<p class="prompt">影片时长1分07秒，包含各种广告形式，请耐心观看</p>
+				<div class="adv_1 hide"></div>
+				<div class="adv_2 hide">
+					<div class="showChange hide"></div>
+				</div>
+				<div class="adv_3 hide">
+					<div class="sound"></div>
+				</div>
+				<button class="btn pauseBtn hide">暂停播放</button>
+				<div class="adv_4 hide"></div>
+				<button class="btn playBtn hide">继续播放</button>
+				<button class="btn rePlayBtn hide">重新播放</button>
+				<button class="btn backBtn hide">退出</button>
+			</div>
+		</div>
+		<!-- 动态专区切换 -->
+		<div class="mainIndex index8 hide">
+			<div class="banner_wrapper">
+				<div class="banner right">
+					<img class="indexTV" src="image/YIUITV.jpg">
+					<img class="areaTV" src="image/areaTV1.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer_txt">
+			<p>© 康佳集团有限公司</p>
+			<p>深圳市南山区粤海街道科技园科技南十二路28号康佳研发大厦21层</p>
+			<p>联系电话 ：+86 0755 26608866-6969 / 8061</p>
+		</div>
+		<img class="footer_logo" src="image/logo2.png">
+	</footer>
+</div>
+	<script type="text/javascript" src="scripts/jquery-3.1.0.min.js"></script>
+	<script src="scripts/index.js"></script>
+</body>
+</html>
